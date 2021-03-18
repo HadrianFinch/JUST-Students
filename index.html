@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>W3.CSS Template</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="./index.css">
+
+        <script src="./index.js"></script>
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top" id="navbarContainer">
+            <div class="w3-bar" id="myNavbar">
+                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+                </a>
+                <a href="#home" class="w3-bar-item w3-button noOpas">HOME</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hide-small noOpas"><i class="fa fa-user"></i> OUR MISSION</a>
+                <a href="#WeeklyAnouncments" class="w3-bar-item w3-button w3-hide-small noOpas"><i class="fa fa-video-camera"></i> WEEKLY ANNOUNCEMENTS</a>
+                <a href="#resources" class="w3-bar-item w3-button w3-hide-small noOpas"><i class="fa fa-book"></i> RESOURCES</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-hide-small noOpas"><i class="fa fa-envelope"></i> CONTACT</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red noOpas">
+                <i class="fa fa-search"></i>
+                </a>
+            </div>
+
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+                <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+                <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+                <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+                <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+            </div>
+        </div>
+
+        <!-- First Parallax Image with Logo Text -->
+        <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large JustRed w3-xlarge w3-wide w3-animate-opacity" id="TitleBanner">Justice and
+                    <span class="w3-hide-small">Understanding</span> Support Team
+                </span>
+            </div>
+        </div>
+
+            <!-- Container (About Section) -->
+        <div class="w3-content w3-container w3-padding-64" id="about">
+            <h3 class="w3-center">ABOUT JUST STUDENTS</h3>
+            <!-- <p class="w3-center"><em>I love photography</em></p> -->
+            <p>JUST students is a group devoted to making IMS a better place for all students. 
+                We want to make sure that students of all races, genders, 
+                and sexual orientation are welcomed and accepted at IMS. 
+                WE BELIEVE that Every student at IMS belongs at IMS, 
+                Students deserve to feel safe, valued, respected, and welcome, 
+                People of all races, genders, sexual identities, religions, nationalities, disability, etc. belong at IMS 
+                and It’s ok not to know something. 
+                If you want to join us, we meet **MEETING DAY** at **MEETING TIME**. 
+                We want to hear your ideas too!
+            </p>
+            <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+            <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small JustBlue w3-center" style="width:90%">90%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small JustBlue w3-center" style="width:85%">85%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-padding-small JustBlue w3-center" style="width:75%">75%</div>
+            </div>
+        </div>
+
+        <div class="w3-row">
+            <div class="w3-col m6 w3-padding-large JustGreen">
+                <!-- <img src="/images/Logo text.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="JUST Logo" width="500" height="333"> -->
+                <h3>
+                    What's going well at IMS:
+                </h3>
+                <ul>
+                    <li>Our curricula in LA and SS are getting to be more varied and more representative of different groups </li>
+                    <li>intention of not being to strict on homework is definitely working</li>
+                    <li>Students are starting to understand history</li>
+                    <li>Teachers and students can connect via email and Schoology, and students can feel free to ask any questions when necessary</li>
+                    <li>people are generally well-intentioned</li>
+                    <li>Students are beginning to get more educated on what’s happening in society and what has happened in history</li>
+                  </ul>
+                  <br>
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large JustRed">
+                <h3>
+                    What's not going well at IMS:
+                </h3>
+                <ul>
+                    <li>Teachers don’t always know how to address issues that come up</li>
+                    <li>We have few groups that are specifically for various identity groups</li>
+                    <li>While we do learn about history, not everybody seems
+                        to have been able to fully connect the dots on how it’s led to
+                        events today.
+                    </li>
+                    <li>We have few groups that are specifically
+                        for various identity groups 
+                        (eg we have QUILTBAG but we don’t have a Black
+                        Student Union, Asian Student Union, Jewish Student Union, etc.)  
+                    </li>
+                    <li>People say that they are not being racist, sexist, etc. when they are</li>
+                    <li>Not that many people are trying to change things in terms of racism, sexism etc.</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+
+        <div class="bgimg-1-1 w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide" id="WeeklyAnouncments"></span>
+            </div>
+        </div>
+
+        <div class="w3-content w3-container w3-padding-64" id="resources">
+            <h3 class="w3-center">MY WORK</h3>
+            <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m3">
+                    <iframe src="https://www.youtube.com/embed/eFKlR-pYhxM" 
+                    style="border:none;" title="Episode 1"
+                    class="videoView" width="100%"></iframe>
+                </div>
+
+                <div class="w3-col m3">
+                    <iframe src="https://www.youtube.com/embed/hxhiYubFlBE" 
+                    style="border:none;" title="Episode 2"
+                    class="videoView" width="100%"></iframe>
+                </div>
+
+                <div class="w3-col m3">
+                    <img src="./images/comming soon tag.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Comming Soon">
+                </div>
+
+                <div class="w3-col m3">
+                    <img src="./images/comming soon tag.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Comming Soon">
+                </div>
+            </div>
+
+            <!-- <div class="w3-row-padding w3-center w3-section">
+                <div class="w3-col m3">
+                <img src="https://www.w3schools.com/w3css/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+                </div>
+
+                <div class="w3-col m3">
+                <img src="https://www.w3schools.com/w3css/4/w3.css/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+                </div>
+
+                <div class="w3-col m3">
+                <img src="https://www.w3schools.com/w3css/4/w3.css/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+                </div>
+
+                <div class="w3-col m3">
+                <img src="https://www.w3schools.com/w3css/4/w3.css/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+                </div>
+                <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">SEE MORE</button>
+            </div> -->
+        </div>
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>
+
+
+        <div class="w3-row w3-center JustBlue w3-padding-16">
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">4+</span><br>
+                Partners
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">14+</span><br>
+                Projects Done
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">300+</span><br>
+                Happy Students
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-xlarge">20+</span><br>
+                Meetings
+            </div>
+        </div>
+
+            <!-- Second Parallax Image with Portfolio Text -->
+        <div class="bgimg-2 w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide">RESOURCES</span>
+            </div>
+        </div>
+
+            <!-- Container (Portfolio Section) -->
+        
+            <!-- Third Parallax Image with Portfolio Text -->
+        <div class="bgimg-3 w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+            </div>
+        </div>
+        
+        <!-- Container (Contact Section) -->
+        <div class="w3-content w3-container w3-padding-64" id="contact">
+            <h3 class="w3-center">WHERE I WORK</h3>
+            <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+            <div class="w3-row w3-padding-32 w3-section">
+                <div class="w3-col m4 w3-container">
+                <img src="./images/Logo 600x600 Circle.png" class="w3-image w3-round" style="width:100%">
+                </div>
+                <div class="w3-col m8 w3-panel">
+                    <div class="w3-large w3-margin-bottom">
+                        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Mercer Island, Washington, US<br>
+                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: imsjuststudents@gmail.com<br>
+                    </div>
+                    <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or send us a message:</p>
+                    <button class="w3-button w3-black w3-left w3-section" onclick="window.location.replace('mailto:imsjuststudents@gmail.com?cc=litza.johnson@mercerislandschools.org&subject=Website%20Message')">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        </footer>
+        
+        <script>
+        // Modal Image Gallery
+        function onClick(element) 
+        {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        </script>
+    </body>
+</html> 
